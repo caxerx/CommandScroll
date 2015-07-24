@@ -1,0 +1,109 @@
+name: CommandScroll
+main: com.sacrificemc.commandscroll.CommandScrollPlugin
+authors: [CaxerX]
+version: 2.1.0
+commands:
+  commandscroll:
+    description: CommandScrollCommand
+    usage: /<command>
+    aliases: [csc]
+permissions:
+  commandscroll.addcommand.console:
+    description: Add a console command to a scroll
+    default: false
+  commandscroll.addcommand.op:
+    description: Add a admin command to a scroll
+    default: false
+  commandscroll.addcommand.player:
+    description: Add a player command to a scroll
+    default: op
+  commandscroll.addcommand.broadcast:
+    description: Add a broadcast to a scroll
+    default: op
+  commandscroll.addcommand.msg:
+    description: Add a message command to a scroll
+    default: op
+  commandscroll.removecommand:
+    description: Add a console command to a scroll
+    default: op
+    
+  commandscroll.createscroll:
+    description: Create a scroll
+    default: op
+  commandscroll.removescroll:
+    description: Remove a scroll
+    default: op
+  commandscroll.getscroll:
+    description: Get a scroll
+    default: op
+  commandscroll.setcd:
+    description: Set scroll cooldown
+    default: op
+  commandscroll.resuable:
+    description: Set scroll resuable
+    default: op
+    
+  commandscroll.scrollinfo:
+    description: Check scroll info
+    default: op
+  commandscroll.placeholders:
+    description: List placeholders
+    default: op
+  commandscroll.types:
+    description: List Action types
+    default: op
+  commandscroll.list:
+    description: List scrolls
+    default: op
+  commandscroll.help:
+    description: List commands help
+    default: op
+    
+  commandscroll.reload:
+    description: Reload scrolls
+    default: op
+    
+
+  commandscroll.addcommand:
+    description: Gives basic access to add scroll command
+    children:
+      commandscroll.addcommand.player: true
+      commandscroll.addcommand.broadcast: true
+      commandscroll.addcommand.msg: true
+       
+  commandscroll.addcommand.*:
+    description: Gives fully access to add scroll command
+    children:
+      commandscroll.addcommand.console: true
+      commandscroll.addcommand.op: true
+      commandscroll.addcommand.player: true
+      commandscroll.addcommand.broadcast: true
+      commandscroll.addcommand.msg: true
+       
+  commandscroll.modifyscroll:
+    description: Give the basic permission
+    children:
+      commandscroll.createscroll: true
+      commandscroll.removescroll: true
+      commandscroll.setcd: true
+      commandscroll.resuable: true
+      commandscroll.addcommand: true
+      commandscroll.removecommand: true
+      commandscroll.readscroll: true
+      
+  commandscroll.readscroll:
+    description: Gives Read-Only Permission
+    children:
+      commandscroll.scrollinfo: true
+      commandscroll.placeholders: true
+      commandscroll.types: true
+      commandscroll.list: true
+      commandscroll.help: true
+
+  commandscroll.*:
+    description: Gives basic access to add scroll command
+    children:
+      commandscroll.modifyscroll: true
+      commandscroll.addcommand.*: true
+      commandscroll.reload: true
+      
