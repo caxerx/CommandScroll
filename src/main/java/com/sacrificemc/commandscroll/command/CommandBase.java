@@ -309,9 +309,9 @@ public class CommandBase {
 			Meta.setLore(Lores);
 			Item.setItemMeta(Meta);
 			player.getInventory().addItem(Item);
-			ScrollUtilities.sendSuccess(sender, "已經將卷軸加入你的背包");
+			ScrollUtilities.sendSuccess(sender, "重新載入設定時發生問題");
 		} else {
-			ScrollUtilities.sendError(sender, "只有玩家可以取得卷軸");
+			ScrollUtilities.sendError(sender, "這個指令只可以由玩家執行");
 		}
 		return true;
 	}

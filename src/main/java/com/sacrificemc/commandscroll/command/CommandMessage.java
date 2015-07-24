@@ -17,41 +17,41 @@ public class CommandMessage {
 	public static void helpMessage1(CommandSender sender) {
 		TextComponent Allmessage = new TextComponent("\n");
 		Allmessage.setColor(ChatColor.GOLD);
-		Allmessage.addExtra("=========Command ScrollæŒ‡ä»¤èªªæ˜===========");
+		Allmessage.addExtra("=========Command Scroll«ü¥O»¡©ú===========");
 
 		Allmessage.addExtra("\n");
 
-		TextComponent message = new TextComponent("æŸ¥çœ‹èªªæ˜ ");
+		TextComponent message = new TextComponent("¬d¬İ»¡©ú ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("/csc help <é æ•¸>");
+		message = new TextComponent("/csc help <­¶¼Æ>");
 		message.setColor(ChatColor.GREEN);
-		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc help <é æ•¸>"));
+		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc help <­¶¼Æ>"));
 		Allmessage.addExtra(message);
 
 		Allmessage.addExtra("\n");
 
-		message = new TextComponent("æŸ¥çœ‹æ‰€æœ‰å·è»¸çš„åˆ—è¡¨ ");
+		message = new TextComponent("¬d¬İ©Ò¦³¨÷¶bªº¦Cªí ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("/csc list <é æ•¸>");
+		message = new TextComponent("/csc list <­¶¼Æ>");
 		message.setColor(ChatColor.GREEN);
-		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc list <é æ•¸>"));
+		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc list <­¶¼Æ>"));
 		Allmessage.addExtra(message);
 
 		Allmessage.addExtra("\n");
 
-		message = new TextComponent("æŸ¥çœ‹å·è»¸çš„è©³ç´°è³‡è¨Š ");
+		message = new TextComponent("¬d¬İ¨÷¶bªº¸Ô²Ó¸ê°T ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("/csc scrollinfo <å·è»¸åç¨±>");
+		message = new TextComponent("/csc scrollinfo <¨÷¶b¦WºÙ>");
 		message.setColor(ChatColor.GREEN);
-		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc info <å·è»¸åç¨±>"));
+		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc info <¨÷¶b¦WºÙ>"));
 		Allmessage.addExtra(message);
 
 		Allmessage.addExtra("\n");
 
-		message = new TextComponent("æŸ¥çœ‹å·è»¸çš„åŸ·è¡Œé¡å‹ ");
+		message = new TextComponent("¬d¬İ¨÷¶bªº°õ¦æÃş«¬ ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
 		message = new TextComponent("/csc types");
@@ -61,7 +61,7 @@ public class CommandMessage {
 
 		Allmessage.addExtra("\n");
 
-		message = new TextComponent("æŸ¥çœ‹å·è»¸çš„è®Šæ•¸ ");
+		message = new TextComponent("¬d¬İ¨÷¶bªºÅÜ¼Æ ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
 		message = new TextComponent("/csc placeholders");
@@ -77,7 +77,7 @@ public class CommandMessage {
 		message.setColor(ChatColor.WHITE);
 		Allmessage.addExtra(message);
 
-		message = new TextComponent(" ç¬¬1/3é  ");
+		message = new TextComponent(" ²Ä1/3­¶ ");
 		message.setColor(ChatColor.RED);
 		Allmessage.addExtra(message);
 
@@ -97,56 +97,56 @@ public class CommandMessage {
 	public static void helpMessage2(CommandSender sender) {
 		TextComponent Allmessage = new TextComponent("\n");
 		Allmessage.setColor(ChatColor.GOLD);
-		Allmessage.addExtra("=========Command ScrollæŒ‡ä»¤èªªæ˜===========");
+		Allmessage.addExtra("=========Command Scroll«ü¥O»¡©ú===========");
 
 		Allmessage.addExtra("\n");
 
-		TextComponent message = new TextComponent("å»ºç«‹ä¸€å€‹å·è»¸ ");
+		TextComponent message = new TextComponent("«Ø¥ß¤@­Ó¨÷¶b ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("/csc create <å·è»¸åç¨±>");
+		message = new TextComponent("/csc create <¨÷¶b¦WºÙ>");
 		message.setColor(ChatColor.GREEN);
-		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc create <å·è»¸åç¨±>"));
-		Allmessage.addExtra(message);
-
-		Allmessage.addExtra("\n");
-
-		message = new TextComponent("ç§»é™¤ä¸€å€‹å·è»¸ ");
-		message.setColor(ChatColor.AQUA);
-		Allmessage.addExtra(message);
-		message = new TextComponent("/csc remove <å·è»¸åç¨±>");
-		message.setColor(ChatColor.GREEN);
-		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc remove <å·è»¸åç¨±>"));
+		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc create <¨÷¶b¦WºÙ>"));
 		Allmessage.addExtra(message);
 
 		Allmessage.addExtra("\n");
 
-		message = new TextComponent("å–å¾—ä¸€å€‹å·è»¸ ");
+		message = new TextComponent("²¾°£¤@­Ó¨÷¶b ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("/csc get <å·è»¸åç¨±>");
+		message = new TextComponent("/csc remove <¨÷¶b¦WºÙ>");
 		message.setColor(ChatColor.GREEN);
-		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc get <å·è»¸åç¨±>"));
+		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc remove <¨÷¶b¦WºÙ>"));
 		Allmessage.addExtra(message);
 
 		Allmessage.addExtra("\n");
 
-		message = new TextComponent("è¨­å®šå·è»¸çš„å†·å»æ™‚é–“ ");
+		message = new TextComponent("¨ú±o¤@­Ó¨÷¶b ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("/csc setcd <å·è»¸åç¨±> <å†·å»æ™‚é–“>");
+		message = new TextComponent("/csc get <¨÷¶b¦WºÙ>");
 		message.setColor(ChatColor.GREEN);
-		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc setcd <å·è»¸åç¨±> <å†·å»æ™‚é–“>"));
+		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc get <¨÷¶b¦WºÙ>"));
 		Allmessage.addExtra(message);
 
 		Allmessage.addExtra("\n");
 
-		message = new TextComponent("è¨­å®šå·è»¸æ˜¯å¦æ¶ˆè€— ");
+		message = new TextComponent("³]©w¨÷¶bªº§N«o®É¶¡ ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("/csc resuable <å·è»¸åç¨±> <true/false>");
+		message = new TextComponent("/csc setcd <¨÷¶b¦WºÙ> <§N«o®É¶¡>");
 		message.setColor(ChatColor.GREEN);
-		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc resuable <å·è»¸åç¨±> <true/false>"));
+		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc setcd <¨÷¶b¦WºÙ> <§N«o®É¶¡>"));
+		Allmessage.addExtra(message);
+
+		Allmessage.addExtra("\n");
+
+		message = new TextComponent("³]©w¨÷¶b¬O§_®ø¯Ó ");
+		message.setColor(ChatColor.AQUA);
+		Allmessage.addExtra(message);
+		message = new TextComponent("/csc resuable <¨÷¶b¦WºÙ> <true/false>");
+		message.setColor(ChatColor.GREEN);
+		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc resuable <¨÷¶b¦WºÙ> <true/false>"));
 		Allmessage.addExtra(message);
 
 		Allmessage.addExtra("\n");
@@ -158,7 +158,7 @@ public class CommandMessage {
 		message.setClickEvent(new ClickEvent(Action.RUN_COMMAND, "/csc help 1"));
 		Allmessage.addExtra(message);
 
-		message = new TextComponent(" ç¬¬2/3é  ");
+		message = new TextComponent(" ²Ä2/3­¶ ");
 		message.setColor(ChatColor.RED);
 		Allmessage.addExtra(message);
 
@@ -178,31 +178,31 @@ public class CommandMessage {
 	public static void helpMessage3(CommandSender sender) {
 		TextComponent Allmessage = new TextComponent("\n");
 		Allmessage.setColor(ChatColor.GOLD);
-		Allmessage.addExtra("=========Command ScrollæŒ‡ä»¤èªªæ˜===========");
+		Allmessage.addExtra("=========Command Scroll«ü¥O»¡©ú===========");
 
 		Allmessage.addExtra("\n");
 
-		TextComponent message = new TextComponent("ç‚ºå·è»¸å¢åŠ ä¸€è¡ŒæŒ‡ä»¤ ");
+		TextComponent message = new TextComponent("¬°¨÷¶b¼W¥[¤@¦æ«ü¥O ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("/csc addcommand <å·è»¸åç¨±> <åŸ·è¡Œé¡å‹> <æŒ‡ä»¤>");
+		message = new TextComponent("/csc addcommand <¨÷¶b¦WºÙ> <°õ¦æÃş«¬> <«ü¥O>");
 		message.setColor(ChatColor.GREEN);
-		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc addcommand <å·è»¸åç¨±> <åŸ·è¡Œé¡å‹> <æŒ‡ä»¤>"));
+		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc addcommand <¨÷¶b¦WºÙ> <°õ¦æÃş«¬> <«ü¥O>"));
 		Allmessage.addExtra(message);
 
 		Allmessage.addExtra("\n");
 
-		message = new TextComponent("ç§»é™¤å·è»¸çš„ä¸€è¡ŒæŒ‡ä»¤ ");
+		message = new TextComponent("²¾°£¨÷¶bªº¤@¦æ«ü¥O ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("/csc removecommand <å·è»¸åç¨±> <è¡Œæ•¸>");
+		message = new TextComponent("/csc removecommand <¨÷¶b¦WºÙ> <¦æ¼Æ>");
 		message.setColor(ChatColor.GREEN);
-		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc removecommand <å·è»¸åç¨±> <è¡Œæ•¸>"));
+		message.setClickEvent(new ClickEvent(Action.SUGGEST_COMMAND, "/csc removecommand <¨÷¶b¦WºÙ> <¦æ¼Æ>"));
 		Allmessage.addExtra(message);
 
 		Allmessage.addExtra("\n");
 
-		message = new TextComponent("é‡æ–°è¼‰å…¥è¨­å®š ");
+		message = new TextComponent("­«·s¸ü¤J³]©w ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
 		message = new TextComponent("/csc reload");
@@ -219,7 +219,7 @@ public class CommandMessage {
 		message.setClickEvent(new ClickEvent(Action.RUN_COMMAND, "/csc help 2"));
 		Allmessage.addExtra(message);
 
-		message = new TextComponent(" ç¬¬3/3é  ");
+		message = new TextComponent(" ²Ä3/3­¶ ");
 		message.setColor(ChatColor.RED);
 		Allmessage.addExtra(message);
 
@@ -238,13 +238,13 @@ public class CommandMessage {
 	public static void actionType(CommandSender sender) {
 		TextComponent Allmessage = new TextComponent("\n");
 		Allmessage.setColor(ChatColor.GOLD);
-		Allmessage.addExtra("==========CommandScrollåŸ·è¡Œé¡å‹===========");
+		Allmessage.addExtra("==========CommandScroll°õ¦æÃş«¬===========");
 
 		Allmessage.addExtra("\n");
 		TextComponent message = new TextComponent("player ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("ä»¥è©²ç©å®¶çš„èº«ä»½åŸ·è¡Œ");
+		message = new TextComponent("¥H¸Óª±®aªº¨­¥÷°õ¦æ");
 		message.setColor(ChatColor.GREEN);
 		Allmessage.addExtra(message);
 
@@ -252,7 +252,7 @@ public class CommandMessage {
 		message = new TextComponent("op ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("ä»¥è©²ç®¡ç†å“¡çš„èº«ä»½åŸ·è¡Œ");
+		message = new TextComponent("¥H¸ÓºŞ²z­ûªº¨­¥÷°õ¦æ");
 		message.setColor(ChatColor.GREEN);
 		Allmessage.addExtra(message);
 
@@ -260,7 +260,7 @@ public class CommandMessage {
 		message = new TextComponent("console ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("åœ¨æ§åˆ¶å°åŸ·è¡Œ");
+		message = new TextComponent("¦b±±¨î¥x°õ¦æ");
 		message.setColor(ChatColor.GREEN);
 		Allmessage.addExtra(message);
 
@@ -268,7 +268,7 @@ public class CommandMessage {
 		message = new TextComponent("broadcast ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("å»£æ’­ä¿¡æ¯");
+		message = new TextComponent("¼s¼½«H®§");
 		message.setColor(ChatColor.GREEN);
 		Allmessage.addExtra(message);
 
@@ -276,7 +276,7 @@ public class CommandMessage {
 		message = new TextComponent("msg ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("å‘ä½¿ç”¨è€…ç™¼å‡ºä¸€å€‹ä¿¡æ¯");
+		message = new TextComponent("¦V¨Ï¥ÎªÌµo¥X¤@­Ó«H®§");
 		message.setColor(ChatColor.GREEN);
 		Allmessage.addExtra(message);
 
@@ -293,13 +293,13 @@ public class CommandMessage {
 	public static void placeholder(CommandSender sender) {
 		TextComponent Allmessage = new TextComponent("\n");
 		Allmessage.setColor(ChatColor.GOLD);
-		Allmessage.addExtra("=========CommandScrollæŒ‡ä»¤è®Šæ•¸===========");
+		Allmessage.addExtra("=========CommandScroll«ü¥OÅÜ¼Æ===========");
 
 		Allmessage.addExtra("\n");
 		TextComponent message = new TextComponent("<x> ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("ä½¿ç”¨è€…æ‰€åœ¨ä½ç½®çš„Xåº§æ¨™");
+		message = new TextComponent("¨Ï¥ÎªÌ©Ò¦b¦ì¸mªºX®y¼Ğ");
 		message.setColor(ChatColor.GREEN);
 		Allmessage.addExtra(message);
 
@@ -307,7 +307,7 @@ public class CommandMessage {
 		message = new TextComponent("<y> ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("ä½¿ç”¨è€…æ‰€åœ¨ä½ç½®çš„Yåº§æ¨™");
+		message = new TextComponent("¨Ï¥ÎªÌ©Ò¦b¦ì¸mªºY®y¼Ğ");
 		message.setColor(ChatColor.GREEN);
 		Allmessage.addExtra(message);
 
@@ -315,7 +315,7 @@ public class CommandMessage {
 		message = new TextComponent("<z> ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("ä½¿ç”¨è€…æ‰€åœ¨ä½ç½®çš„Zåº§æ¨™");
+		message = new TextComponent("¨Ï¥ÎªÌ©Ò¦b¦ì¸mªºZ®y¼Ğ");
 		message.setColor(ChatColor.GREEN);
 		Allmessage.addExtra(message);
 
@@ -323,7 +323,7 @@ public class CommandMessage {
 		message = new TextComponent("<world> ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("ä½¿ç”¨è€…æ‰€åœ¨çš„ä¸–ç•Œåç¨±");
+		message = new TextComponent("¨Ï¥ÎªÌ©Ò¦bªº¥@¬É¦WºÙ");
 		message.setColor(ChatColor.GREEN);
 		Allmessage.addExtra(message);
 
@@ -331,7 +331,7 @@ public class CommandMessage {
 		message = new TextComponent("<player> ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("ä½¿ç”¨è€…çš„åç¨±");
+		message = new TextComponent("¨Ï¥ÎªÌªº¦WºÙ");
 		message.setColor(ChatColor.GREEN);
 		Allmessage.addExtra(message);
 
@@ -339,7 +339,7 @@ public class CommandMessage {
 		message = new TextComponent("<uuid> ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent("ä½¿ç”¨è€…çš„UUID");
+		message = new TextComponent("¨Ï¥ÎªÌªºUUID");
 		message.setColor(ChatColor.GREEN);
 		Allmessage.addExtra(message);
 
@@ -356,7 +356,7 @@ public class CommandMessage {
 	public static void scrollList(List<String> scrolls, int page, int maxpage, CommandSender sender) {
 		TextComponent Allmessage = new TextComponent("\n");
 		Allmessage.setColor(ChatColor.GOLD);
-		Allmessage.addExtra("=========Command Scrollå·è»¸åˆ—è¡¨===========");
+		Allmessage.addExtra("=========Command Scroll¨÷¶b¦Cªí===========");
 
 		TextComponent message = new TextComponent("");
 		int i = 1;
@@ -387,7 +387,7 @@ public class CommandMessage {
 			Allmessage.addExtra(message);
 		}
 
-		message = new TextComponent(" ç¬¬" + page + "/" + maxpage + "é  ");
+		message = new TextComponent(" ²Ä" + page + "/" + maxpage + "­¶ ");
 		message.setColor(ChatColor.RED);
 		Allmessage.addExtra(message);
 
@@ -413,12 +413,12 @@ public class CommandMessage {
 	public static void scrollInfo(Scroll scroll, CommandSender sender) {
 		TextComponent Allmessage = new TextComponent("\n");
 		Allmessage.setColor(ChatColor.GOLD);
-		Allmessage.addExtra("=========CommandScrollå·è»¸è³‡è¨Š===========");
+		Allmessage.addExtra("=========CommandScroll¨÷¶b¸ê°T===========");
 
 		TextComponent message = new TextComponent("");
 
 		Allmessage.addExtra("\n");
-		message = new TextComponent("å·è»¸åç¨±: ");
+		message = new TextComponent("¨÷¶b¦WºÙ: ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
 		message = new TextComponent(scroll.getName());
@@ -426,27 +426,27 @@ public class CommandMessage {
 		Allmessage.addExtra(message);
 
 		Allmessage.addExtra("\n");
-		message = new TextComponent("æ¶ˆè€—: ");
+		message = new TextComponent("®ø¯Ó: ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
 		if (scroll.getResuable()) {
-			message = new TextComponent("å¦");
+			message = new TextComponent("§_");
 		} else {
-			message = new TextComponent("æ˜¯");
+			message = new TextComponent("¬O");
 		}
 		message.setColor(ChatColor.GREEN);
 		Allmessage.addExtra(message);
 
 		Allmessage.addExtra("\n");
-		message = new TextComponent("å†·å»æ™‚é–“: ");
+		message = new TextComponent("§N«o®É¶¡: ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
-		message = new TextComponent(scroll.getCooldown() + " ç§’");
+		message = new TextComponent(scroll.getCooldown() + " ¬í");
 		message.setColor(ChatColor.GREEN);
 		Allmessage.addExtra(message);
 
 		Allmessage.addExtra("\n");
-		message = new TextComponent("æŒ‡ä»¤: ");
+		message = new TextComponent("«ü¥O: ");
 		message.setColor(ChatColor.AQUA);
 		Allmessage.addExtra(message);
 		Allmessage.addExtra("\n");
@@ -463,7 +463,7 @@ public class CommandMessage {
 
 		if (sender instanceof Player) {
 			Allmessage.addExtra("===============");
-			message = new TextComponent("[å–å¾—å·è»¸]");
+			message = new TextComponent("[¨ú±o¨÷¶b]");
 			message.setColor(ChatColor.YELLOW);
 			message.setClickEvent(new ClickEvent(Action.RUN_COMMAND, "/csc get " + scroll.getName()));
 			Allmessage.addExtra(message);
@@ -498,7 +498,7 @@ public class CommandMessage {
 		Allmessage.addExtra(message);
 		Allmessage.addExtra("\n");
 
-		message = new TextComponent("[é»æ“ŠæŸ¥çœ‹æŒ‡ä»¤èªªæ˜]");
+		message = new TextComponent("[ÂIÀ»¬d¬İ«ü¥O»¡©ú]");
 		message.setColor(ChatColor.YELLOW);
 		message.setClickEvent(new ClickEvent(Action.RUN_COMMAND, "/csc help"));
 		Allmessage.addExtra(message);
