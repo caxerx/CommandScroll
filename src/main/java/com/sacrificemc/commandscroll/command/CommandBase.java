@@ -41,7 +41,7 @@ public class CommandBase {
 					help(1);
 				}
 			} else {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 			}
 			break;
 		case "list":
@@ -53,28 +53,28 @@ public class CommandBase {
 					list(1);
 				}
 			} else {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 			}
 			break;
 		case "types":
 			if (sender.hasPermission("commandscroll.types")) {
 				types();
 			} else {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 			}
 			break;
 		case "placeholders":
 			if (sender.hasPermission("commandscroll.placeholders")) {
 				placeholders();
 			} else {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 			}
 			break;
 		case "create":
 			if (sender.hasPermission("commandscroll.createscroll")) {
 				create(args.get(0));
 			} else {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 			}
 			break;
 		case "remove":
@@ -84,12 +84,12 @@ public class CommandBase {
 						throw (new NullPointerException("Scroll not here"));
 					}
 				} catch (Exception ex) {
-					ScrollUtilities.sendError(sender, "½Ğ¿é¤J¥¿½Tªº¨÷¶b¦WºÙ");
+					ScrollUtilities.sendError(sender, "è«‹è¼¸å…¥æ­£ç¢ºçš„å·è»¸åç¨±");
 					break;
 				}
 				remove(args.get(0));
 			} else {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 			}
 			break;
 		case "get":
@@ -99,19 +99,19 @@ public class CommandBase {
 						throw (new NullPointerException("Scroll not here"));
 					}
 				} catch (Exception ex) {
-					ScrollUtilities.sendError(sender, "½Ğ¿é¤J¥¿½Tªº¨÷¶b¦WºÙ");
+					ScrollUtilities.sendError(sender, "è«‹è¼¸å…¥æ­£ç¢ºçš„å·è»¸åç¨±");
 					break;
 				}
 				get(args.get(0));
 			} else {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 			}
 			break;
 		case "reload":
 			if (sender.hasPermission("commandscroll.reload")) {
 				reload();
 			} else {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 			}
 			break;
 		case "setcd":
@@ -121,12 +121,12 @@ public class CommandBase {
 						throw (new NullPointerException("Scroll not here"));
 					}
 				} catch (Exception ex) {
-					ScrollUtilities.sendError(sender, "½Ğ¿é¤J¥¿½Tªº¨÷¶b¦WºÙ");
+					ScrollUtilities.sendError(sender, "è«‹è¼¸å…¥æ­£ç¢ºçš„å·è»¸åç¨±");
 					break;
 				}
 				setcd(args.get(0), Double.parseDouble(args.get(1)));
 			} else {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 			}
 			break;
 		case "addcommand":
@@ -137,7 +137,7 @@ public class CommandBase {
 					throw (new NullPointerException("Scroll not here"));
 				}
 			} catch (Exception ex) {
-				ScrollUtilities.sendError(sender, "½Ğ¿é¤J¥¿½Tªº¨÷¶b¦WºÙ");
+				ScrollUtilities.sendError(sender, "è«‹è¼¸å…¥æ­£ç¢ºçš„å·è»¸åç¨±");
 				break;
 			}
 			try {
@@ -146,7 +146,7 @@ public class CommandBase {
 					throw (new NullPointerException("actiontype is Null"));
 				}
 			} catch (Exception ex) {
-				ScrollUtilities.sendError(sender, "½Ğ¿é¤J¥¿½Tªº°õ¦æÃş«¬");
+				ScrollUtilities.sendError(sender, "è«‹è¼¸å…¥æ­£ç¢ºçš„åŸ·è¡Œé¡å‹");
 				break;
 			}
 			try {
@@ -156,7 +156,7 @@ public class CommandBase {
 					Command += args.get(i);
 				}
 			} catch (Exception ex) {
-				ScrollUtilities.sendError(sender, "½Ğ¿é¤J«ü¥O");
+				ScrollUtilities.sendError(sender, "è«‹è¼¸å…¥æŒ‡ä»¤");
 				break;
 			}
 			addcommand(args.get(0), args.get(1), Command);
@@ -168,12 +168,12 @@ public class CommandBase {
 						throw (new NullPointerException("Scroll not here"));
 					}
 				} catch (Exception ex) {
-					ScrollUtilities.sendError(sender, "½Ğ¿é¤J¥¿½Tªº¨÷¶b¦WºÙ");
+					ScrollUtilities.sendError(sender, "è«‹è¼¸å…¥æ­£ç¢ºçš„å·è»¸åç¨±");
 					break;
 				}
 				removecommand(args.get(0), Integer.parseInt(args.get(1)));
 			} else {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 			}
 			break;
 		case "resuable":
@@ -183,12 +183,12 @@ public class CommandBase {
 						throw (new NullPointerException("Scroll not here"));
 					}
 				} catch (Exception ex) {
-					ScrollUtilities.sendError(sender, "½Ğ¿é¤J¥¿½Tªº¨÷¶b¦WºÙ");
+					ScrollUtilities.sendError(sender, "è«‹è¼¸å…¥æ­£ç¢ºçš„å·è»¸åç¨±");
 					break;
 				}
 				resuable(args.get(0), Boolean.parseBoolean(args.get(1)));
 			} else {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 			}
 			break;
 		case "info":
@@ -198,12 +198,12 @@ public class CommandBase {
 						throw (new NullPointerException("Scroll not here"));
 					}
 				} catch (Exception ex) {
-					ScrollUtilities.sendError(sender, "½Ğ¿é¤J¥¿½Tªº¨÷¶b¦WºÙ");
+					ScrollUtilities.sendError(sender, "è«‹è¼¸å…¥æ­£ç¢ºçš„å·è»¸åç¨±");
 					break;
 				}
 				scrollinfo(args.get(0));
 			} else {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 			}
 			break;
 		default:
@@ -248,7 +248,7 @@ public class CommandBase {
 			}
 			CommandMessage.scrollList(scrlist, page, pages, sender);
 		} else {
-			ScrollUtilities.sendError(sender, "­¶¼Æ¤£¦s¦b");
+			ScrollUtilities.sendError(sender, "é æ•¸ä¸å­˜åœ¨");
 		}
 		return true;
 	}
@@ -265,9 +265,9 @@ public class CommandBase {
 			ScrollYML.set(name + ".Reusable", false);
 			ScrollYML.set(name + ".Commands", new ArrayList<String>());
 			LoadScroll.saveScrollAndReload(ScrollYML);
-			ScrollUtilities.sendSuccess(sender, "¦¨¥\«Ø¥ß¨÷¶b");
+			ScrollUtilities.sendSuccess(sender, "æˆåŠŸå»ºç«‹å·è»¸");
 		} catch (Exception e) {
-			ScrollUtilities.sendError(sender, "«Ø¥ß¨÷¶b®É¥X²{°İÃD");
+			ScrollUtilities.sendError(sender, "å»ºç«‹å·è»¸æ™‚å‡ºç¾å•é¡Œ");
 			e.printStackTrace();
 		}
 		return true;
@@ -278,9 +278,9 @@ public class CommandBase {
 			YamlConfiguration ScrollYML = LoadScroll.reloadScroll();
 			ScrollYML.set(name, null);
 			LoadScroll.saveScrollAndReload(ScrollYML);
-			ScrollUtilities.sendSuccess(sender, "¦¨¥\²¾°£¨÷¶b");
+			ScrollUtilities.sendSuccess(sender, "æˆåŠŸç§»é™¤å·è»¸");
 		} catch (Exception e) {
-			ScrollUtilities.sendError(sender, "«Ø¥ß¨÷¶b®É¥X²{°İÃD");
+			ScrollUtilities.sendError(sender, "å»ºç«‹å·è»¸æ™‚å‡ºç¾å•é¡Œ");
 			e.printStackTrace();
 		}
 		return true;
@@ -290,10 +290,10 @@ public class CommandBase {
 		try {
 			CommandScrollPlugin.getPlugin().reloadConfig();
 			CommandScrollPlugin.setPrefix(CommandScrollPlugin.getPlugin().getConfig().getString("ScrollPrefix"));
-			ScrollUtilities.sendSuccess(sender, "¤w¸g­«·s¸ü¤J³]©w");
+			ScrollUtilities.sendSuccess(sender, "å·²ç¶“é‡æ–°è¼‰å…¥è¨­å®š");
 			CommandScrollPlugin.reScrolls();
 		} catch (Exception e) {
-			ScrollUtilities.sendError(sender, "­«·s¸ü¤J³]©w®Éµo¥Í°İÃD");
+			ScrollUtilities.sendError(sender, "é‡æ–°è¼‰å…¥è¨­å®šæ™‚ç™¼ç”Ÿå•é¡Œ");
 			e.printStackTrace();
 		}
 		return true;
@@ -309,9 +309,9 @@ public class CommandBase {
 			Meta.setLore(Lores);
 			Item.setItemMeta(Meta);
 			player.getInventory().addItem(Item);
-			ScrollUtilities.sendSuccess(sender, "¤w¸g±N¨÷¶b¥[¤J§Aªº­I¥]");
+			ScrollUtilities.sendSuccess(sender, "å·²ç¶“å°‡å·è»¸åŠ å…¥ä½ çš„èƒŒåŒ…");
 		} else {
-			ScrollUtilities.sendError(sender, "¥u¦³ª±®a¥i¥H¨ú±o¨÷¶b");
+			ScrollUtilities.sendError(sender, "åªæœ‰ç©å®¶å¯ä»¥å–å¾—å·è»¸");
 		}
 		return true;
 	}
@@ -321,9 +321,9 @@ public class CommandBase {
 			YamlConfiguration ScrollYML = LoadScroll.reloadScroll();
 			ScrollYML.set(name + ".Cooldown", cooldowntime);
 			LoadScroll.saveScrollAndReload(ScrollYML);
-			ScrollUtilities.sendSuccess(sender, "¦¨¥\³]©w");
+			ScrollUtilities.sendSuccess(sender, "æˆåŠŸè¨­å®š");
 		} catch (Exception e) {
-			ScrollUtilities.sendError(sender, "³]©w®É¥X²{°İÃD");
+			ScrollUtilities.sendError(sender, "è¨­å®šæ™‚å‡ºç¾å•é¡Œ");
 			e.printStackTrace();
 		}
 		return true;
@@ -333,36 +333,36 @@ public class CommandBase {
 		switch (type) {
 		case "player":
 			if (!sender.hasPermission("commandscroll.addcommand.player")) {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 				return true;
 			}
 			break;
 		case "op":
 			if (!sender.hasPermission("commandscroll.addcommand.op")) {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 				return true;
 			}
 			break;
 		case "console":
 			if (!sender.hasPermission("commandscroll.addcommand.console")) {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 				return true;
 			}
 			break;
 		case "msg":
 			if (!sender.hasPermission("commandscroll.addcommand.msg")) {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 				return true;
 			}
 			break;
 		case "broadcast":
 			if (!sender.hasPermission("commandscroll.addcommand.broadcast")) {
-				ScrollUtilities.sendError(sender, "§A¨S¦³¨¬°÷ªºÅv­­");
+				ScrollUtilities.sendError(sender, "ä½ æ²’æœ‰è¶³å¤ çš„æ¬Šé™");
 				return true;
 			}
 			break;
 		default:
-			ScrollUtilities.sendError(sender, "½Ğ¿é¤J¥¿½Tªº°õ¦æÃş«¬");
+			ScrollUtilities.sendError(sender, "è«‹è¼¸å…¥æ­£ç¢ºçš„åŸ·è¡Œé¡å‹");
 			break;
 		}
 		try {
@@ -370,9 +370,9 @@ public class CommandBase {
 			commands.add(type + ":" + command);
 			LoadScroll.setScrollCommands(scroll, commands);
 			CommandScrollPlugin.reScrolls();
-			ScrollUtilities.sendSuccess(sender, "¦¨¥\¼W¥[«ü¥O");
+			ScrollUtilities.sendSuccess(sender, "æˆåŠŸå¢åŠ æŒ‡ä»¤");
 		} catch (Exception e) {
-			ScrollUtilities.sendError(sender, "½Ğ¿é¤J¥¿½Tªº¨÷¶b¦WºÙ");
+			ScrollUtilities.sendError(sender, "è«‹è¼¸å…¥æ­£ç¢ºçš„å·è»¸åç¨±");
 		}
 		return true;
 	}
@@ -383,9 +383,9 @@ public class CommandBase {
 			commands.remove(line - 1);
 			LoadScroll.setScrollCommands(scroll, commands);
 			CommandScrollPlugin.reScrolls();
-			ScrollUtilities.sendSuccess(sender, "¦¨¥\²¾°£«ü¥O");
+			ScrollUtilities.sendSuccess(sender, "æˆåŠŸç§»é™¤æŒ‡ä»¤");
 		} catch (Exception e) {
-			ScrollUtilities.sendError(sender, "½Ğ¿é¤J¥¿½Tªº¨÷¶b¦WºÙ©Î¦æ¼Æ");
+			ScrollUtilities.sendError(sender, "è«‹è¼¸å…¥æ­£ç¢ºçš„å·è»¸åç¨±æˆ–è¡Œæ•¸");
 		}
 		return true;
 	}
@@ -395,9 +395,9 @@ public class CommandBase {
 			YamlConfiguration ScrollYML = LoadScroll.reloadScroll();
 			ScrollYML.set(name + ".Reusable", reusable);
 			LoadScroll.saveScrollAndReload(ScrollYML);
-			ScrollUtilities.sendSuccess(sender, "¦¨¥\³]©w");
+			ScrollUtilities.sendSuccess(sender, "æˆåŠŸè¨­å®š");
 		} catch (Exception e) {
-			ScrollUtilities.sendError(sender, "³]©w®É¥X²{°İÃD");
+			ScrollUtilities.sendError(sender, "è¨­å®šæ™‚å‡ºç¾å•é¡Œ");
 			e.printStackTrace();
 		}
 		return true;
@@ -408,7 +408,7 @@ public class CommandBase {
 			CommandMessage.scrollInfo(LoadScroll.loadScrollList().get(name), sender);
 			// ScrollYML.set(name + ".Reusable", reusable);
 		} catch (Exception e) {
-			ScrollUtilities.sendError(sender, "½Ğ¿é¤J¥¿½Tªº¨÷¶b¦WºÙ");
+			ScrollUtilities.sendError(sender, "è«‹è¼¸å…¥æ­£ç¢ºçš„å·è»¸åç¨±");
 		}
 		return true;
 	}

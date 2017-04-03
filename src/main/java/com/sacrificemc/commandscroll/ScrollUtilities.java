@@ -69,22 +69,22 @@ public class ScrollUtilities {
 		String ret = "";
 		switch (act) {
 		case PLAYER:
-			ret = "ª±®a";
+			ret = "ç©å®¶";
 			break;
 		case OP:
-			ret = "ºŞ²z­û";
+			ret = "ç®¡ç†å“¡";
 			break;
 		case CONSOLE:
-			ret = "±±¨î¥x";
+			ret = "æ§åˆ¶å°";
 			break;
 		case MSG:
-			ret = "«H®§";
+			ret = "ä¿¡æ¯";
 			break;
 		case BROADCAST:
-			ret = "¼s¼½";
+			ret = "å»£æ’­";
 			break;
 		default:
-			ret = "¥¼ª¾";
+			ret = "æœªçŸ¥";
 		}
 		return ret;
 	}
