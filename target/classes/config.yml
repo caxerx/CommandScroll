@@ -1,5 +1,0 @@
-#If a player right click a item with
-#lore "使用物品: ScrollName". Activate 
-#the scroll
-ScrollPrefix: "使用物品: " 
-CooldownMessage: "&6冷卻中 請等待"

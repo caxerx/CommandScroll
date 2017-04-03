@@ -1,5 +1,3 @@
-#If a player right click a item with
-#lore "¨Ï¥Îª««~: ScrollName". Activate 
-#the scroll
-ScrollPrefix: "¨Ï¥Îª««~: " 
-CooldownMessage: "&6§N«o¤¤ ½Ğµ¥«İ"
+#If a player right click a item with lore "ä½¿ç”¨ç‰©å“: ScrollName", activate the scroll
+ScrollPrefix: "ä½¿ç”¨ç‰©å“: "
+CooldownMessage: "&6å†·å»ä¸­ è«‹ç­‰å¾…"
