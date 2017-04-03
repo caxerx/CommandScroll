@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/CommandScroll</output-path>
     <root id="archive" name="CommandScroll.jar">
       <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+      <element id="module-output" name="CommandScroll" />
     </root>
   </artifact>
 </component>
